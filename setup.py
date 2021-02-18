@@ -17,7 +17,7 @@ if sys.argv[-1] == 'publish':
     os.system('twine upload dist/*')
     sys.exit()
 
-packages = ['tools']
+packages = ['tools', 'tools2']
 
 # requires = open('requirements.txt').readlines()
 requires = ['wandb', 'clearml']
