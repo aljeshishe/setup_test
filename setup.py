@@ -20,7 +20,7 @@ if sys.argv[-1] == 'publish':
 packages = ['tools', 'tools2']
 
 # requires = open('requirements.txt').readlines()
-requires = ['wandb', 'clearml']
+requires = ['wandb', 'clearml', 'requests']
 
 test_requirements = [
     'pytest-httpbin==0.0.7',
